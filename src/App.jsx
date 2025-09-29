@@ -115,6 +115,11 @@ function App() {
 
       <div className='flex lg:flex-row flex-col items-center md:justify-around justify-center md:gap-0 gap-10 mx-20 mt-10'>
           <div className='flex flex-col items-start justify-center'>
+            <div>
+                    <button className='bg-[#fcfcc3] p-2 rounded-lg text-lg ml-[7rem] md:ml-[2rem] text-[#63652f] font-semibold'>
+                    About us
+                    </button>
+                </div>
             {/* <div className='border border-black inline p-2 rounded-full'>About Us</div> */}
 
             <div><img src="agricultural-farmer.jpg" alt="farmer" className='w-60 h-56 rounded-lg mt-20 mb-16 ml-10'/></div>
