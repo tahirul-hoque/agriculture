@@ -259,7 +259,7 @@ function App() {
         {/* Cards grid */}
         <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 mt-10">
           {/* Card 1 */}
-          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full">
+          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-12 bg-[#fcfcc3] p-2 rounded-lg mb-4">
               <path strokeLinecap="round" strokeLinejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
             </svg>
@@ -269,7 +269,7 @@ function App() {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full">
+          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-12 bg-[#fcfcc3] p-2 rounded-lg mb-4">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
             </svg>
@@ -279,7 +279,7 @@ function App() {
             </div>
           </div>
           {/* Card 3 */}
-          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full">
+          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-12 bg-[#fcfcc3] p-2 rounded-lg mb-4">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
             </svg>
@@ -289,7 +289,7 @@ function App() {
             </div>
           </div>
           {/* Card 4 */}
-          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full">
+          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 bg-[#fcfcc3] p-2 rounded-lg mb-4">
               <path fillRule="evenodd" d="M4.5 9.75a6 6 0 0 1 11.573-2.226 3.75 3.75 0 0 1 4.133 4.303A4.5 4.5 0 0 1 18 20.25H6.75a5.25 5.25 0 0 1-2.23-10.004 6.072 6.072 0 0 1-.02-.496Z" clipRule="evenodd" />
             </svg>
@@ -299,7 +299,7 @@ function App() {
             </div>
           </div>
           {/* Card 5 */}
-          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full">
+          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 bg-[#fcfcc3] p-2 rounded-lg mb-4">
               <path d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25ZM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h.375a3 3 0 1 1 6 0h3a.75.75 0 0 0 .75-.75V15Z" />
               <path d="M8.25 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0ZM15.75 6.75a.75.75 0 0 0-.75.75v11.25c0 .087.015.17.042.248a3 3 0 0 1 5.958.464c.853-.175 1.522-.935 1.464-1.883a18.659 18.659 0 0 0-3.732-10.104 1.837 1.837 0 0 0-1.47-.725H15.75Z" />
@@ -311,7 +311,7 @@ function App() {
             </div>
           </div>
           {/* Card 6 */}
-          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full">
+          <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-6 h-full hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 bg-[#fcfcc3] p-2 rounded-lg mb-4">
               <path fillRule="evenodd" d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z" clipRule="evenodd" />
             </svg>
